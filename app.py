@@ -102,5 +102,5 @@ def trip_dates(end):
 
 	return jsonify(summary)
 
-	if __name__ == "__main__":
-		app.run(debug=True)
+if __name__ == "__main__":
+app.run(debug=True)
